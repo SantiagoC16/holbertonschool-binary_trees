@@ -12,7 +12,7 @@ binary_tree_t
 	
 
 	if (node == parent->left)
-		return (grandparent->left);
-	else
 		return (grandparent->right);
+	else
+		return (grandparent->left);
 }
