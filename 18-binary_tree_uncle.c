@@ -8,10 +8,10 @@ binary_tree_t
 	if (node == NULL || node->parent == NULL || node->parent->parent == NULL)
 		return (NULL);
 
-	binary_tree_t *parent = node->parent;
-	binary_tree_t *grandparent = parent->parent;
+	binary_tree_t *_parent = node->parent;
+	binary_tree_t *grandparent = _parent->parent;
 
-	if (node == parent->left)
+	if (node == _parent->left)
 		return (grandparent->left);
 	else
 		return (grandparent->right);
