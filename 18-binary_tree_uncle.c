@@ -9,9 +9,7 @@ binary_tree_t
 	if (node == NULL || node->parent == NULL || node->parent->parent == NULL)
 		return (NULL);
 
-	
-
-	if (node == parent->left)
+	if (parent == grandparent->left)
 		return (grandparent->right);
 	else
 		return (grandparent->left);
