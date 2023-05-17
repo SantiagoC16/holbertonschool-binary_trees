@@ -26,7 +26,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 /**
  * binarytreeheight - aux function
- * @tree: a pointer to the root node
+ * @tree: pointer to the root node
  * Return: height
  */
 
