@@ -2,7 +2,7 @@
 
 /**
  * binarytreeheight - aux function
- * @tree: a pointer to the root node
+ * @tree: pointer to the root node
  * Return: height
  */
 
